@@ -1,0 +1,62 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: black;
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+
+img {
+	width: 50px;
+	height: 50px;
+}
+
+/* bu pikselin altında görsel küçülür */
+@media (max-width: 991px) {
+	.navbar-brand img {
+		  height: 50px;
+		  width: 50px;
+	}
+}
+
+@media (max-width: 991px) {
+	svg {
+		display: none;
+	}
+}
+
+
+
+.nav-link {
+	color: orangered !important;
+	float: left;
+	margin-right: 25px;
+}
+
+.mt-4 {
+	color: orangered;
+	font-size: 35px;
+	text-align: center;
+}
+svg {
+	margin-top: 11.5px;
+	
+}
+
+.maintext {
+	background-color: orangered !important;
+	color: black;
+}
+
+.logotext {
+	color: orangered;
+}
+
+.navbar-light .navbar-toggler {
+	border: 1px solid orangered;
+}
+
+.navbar-light .navbar-toggler {
+	color: orangered;
+}
