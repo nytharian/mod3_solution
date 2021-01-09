@@ -60,3 +60,7 @@ svg {
 .navbar-light .navbar-toggler {
 	color: orangered;
 }
+
+.maintext h2 {
+	text-align: center;
+}
